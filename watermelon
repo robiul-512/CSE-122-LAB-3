@@ -8,7 +8,7 @@ int main()
  
     if(w==2)
     {
-        count++;
+       
         cout<<"NO";
     }
     else  if(w%count==0)
