@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+    int w,count=2;
+    cin>>w;
+ 
+    if(w==2)
+    {
+        count++;
+        cout<<"NO";
+    }
+    else  if(w%count==0)
+        cout<<"YES";
+    else
+        cout<<"NO";
+    return 0;
+}
